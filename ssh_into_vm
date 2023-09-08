@@ -2,7 +2,7 @@ The following are steps to start the ssh service and use it to get into your VM
 
 ..
 
-Open you VM and run the command netstap -natp to see what ports, if any, are open
+Open you VM and run the command netstat -natp to see what ports, if any, are open
 
 ..
 
