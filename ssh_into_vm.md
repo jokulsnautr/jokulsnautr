@@ -1,7 +1,7 @@
 # How to SSH Into Your VM
 
 
-###The following are steps to start the ssh service and use it to get into your VM
+##The following are steps to start the ssh service and use it to get into your VM
 
 ---
 
@@ -33,4 +33,4 @@
 
 And that's it! You should now have successfully ssh'd into your VM!
 
-####Happy Hacking
+###Happy Hacking
