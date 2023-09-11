@@ -5,27 +5,54 @@
 
 ---
 
-1. Open you VM and run the command **_netstat -natp_** to see what ports, if any, are open
+1. Open your VM and run the command: 
+
+```
+
+netstat -natp
+``` 
+
+- This is to see what ports, if any, are open
 
 ---
 
-2. If port 22 is not listed, run **_sudo systemctl status ssh.service_**
+2. If port 22 is not listed, run: 
 
+```
+
+sudo systemctl status ssh.service
+```
 
 - This will validate whether ssh is running or disabled
 
 ---
 
-3. If ssh is  disabled, run **_sudo systemctl start ssh.service_**
+3. If ssh is  disabled, run: 
+
+```
+
+sudo systemctl start ssh.service
+```
 
 ---
 
-4. To check the command worked, run **_sudo systemctl status ssh.service_** again and you should see that ssh is **active (running)**
+4. To check the command worked, run: 
+
+```
+
+sudo systemctl status ssh.service 
+```
+
+- You should see that ssh is **active (running)**
 
 ---
 
-5. With ssh running, go to your command prompt on your local host and ssh into your VM using the command **_ssh username@IPaddress_**
+5. With ssh running, go to your command prompt on your local host and ssh into your VM using the command: 
 
+```
+
+ssh username@IPaddress
+```
 
 - You will be prompted for your password
 
