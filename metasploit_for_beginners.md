@@ -11,3 +11,5 @@ msfupdate
 ```
 msfconsole
 ```
+
+#### Metasploit should start at this point
