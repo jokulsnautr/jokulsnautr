@@ -12,4 +12,10 @@ msfupdate
 msfconsole
 ```
 
-#### Metasploit should start at this point
+#### Metasploit should start at this point and after the programme spins up you should see the below where your command line used to be:
+
+```
+msf6 >
+```
+
+
