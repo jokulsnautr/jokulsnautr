@@ -18,4 +18,18 @@ msfconsole
 msf6 >
 ```
 
+#### Now for the commands
+
+```
+help
+```
+
+- this shows a list of commands that can be run in Metasploit
+
+```
+search
+```
+
+- this allows you to search through Metasploit for names, exploits, auxiliary, scanners ... etc (ex. **search type:exploit ms17_010**)
+
 
