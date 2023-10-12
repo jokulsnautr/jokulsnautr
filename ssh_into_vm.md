@@ -8,7 +8,6 @@
 1. Open your VM and run the command: 
 
 ```
-
 netstat -natp
 ``` 
 
@@ -19,7 +18,6 @@ netstat -natp
 2. If port 22 is not listed, run: 
 
 ```
-
 sudo systemctl status ssh.service
 ```
 
@@ -30,7 +28,6 @@ sudo systemctl status ssh.service
 3. If ssh is  disabled, run: 
 
 ```
-
 sudo systemctl start ssh.service
 ```
 
@@ -39,7 +36,6 @@ sudo systemctl start ssh.service
 4. To check the command worked, run: 
 
 ```
-
 sudo systemctl status ssh.service 
 ```
 
@@ -50,7 +46,6 @@ sudo systemctl status ssh.service
 5. With ssh running, go to your command prompt on your local host and ssh into your VM using the command: 
 
 ```
-
 ssh username@IPaddress
 ```
 
